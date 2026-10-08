@@ -1,7 +1,31 @@
-body{
+/*styles for my resume*/
+/*This is for the default.*/
+body, h1, h2, h3, h4, h5, p, ul, li {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 1em;
     color: #444;
     font-weight: 400;}
 
+/*This is for my name*/
 h1{font-size:3em; color:#33485e; text-transform: uppercase; text-align: center;}
+
+/*Photo commented out*/
+
+/*This is for the sections titles*/
+h2{font-size:1.5em; color: white; background-color: #33485e; text-transform: uppercase; font-weight: 400; }
+
+/*This is for the job titles*/
+h3{font-size:1.5em; font-weight:600; }
+
+/*This is for the job organization*/
+h4{font-size: 1.5em; font-weight: 400}
+
+/*This is for the job dates*/
+h5{font-size:1em; font-weight: 400; font-style:italic;}
+
+/*The rest of these are just for the text that are a part of the resume*/
+p{font-size: 1em;}
+
+ul{font-size: 1em; font-weight: 400;}
+
+li{font-size: 1em; font-weight: 400;}
