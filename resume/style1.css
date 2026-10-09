@@ -6,14 +6,19 @@ body, h1, h2, h3, h4, h5, p, ul, li {
     color: #444;
     font-weight: 400;}
 
+#container{width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 50px;}
+
 /*This is for my name*/
 #name{font-size:3em; color:#33485e; text-transform: uppercase; text-align: center;
-        border-bottom: 1px #33485e; width: 60%; min-width: 300; margin: 0 auto;}
+        border-bottom: 1px #33485e; width: 60%; min-width: 300px; margin: 0 auto;}
 
 /*Photo commented out*/
 
+/*title*/
+#title {font-weight: 600; text-align: center; margin: 20px 0 0 0;}
+
 /*This is for the sections titles*/
-#sectionheader{font-size:1.5em; color: white; background-color: #33485e; text-transform: uppercase; font-weight: 400; margin: 20px 0 10px 0; width:70%; min-width:300;}
+#sectionheader{font-size:1.5em; color: white; background-color: #33485e; text-transform: uppercase; font-weight: 400; margin: 20px 0 10px 0; width:70%; min-width:300px;}
 
 /*This is for the job titles*/
 #jobtitle{font-size:1.25em; font-weight:600; }
@@ -27,6 +32,16 @@ body, h1, h2, h3, h4, h5, p, ul, li {
 /*The rest of these are just for the text that are a part of the resume*/
 .description{font-size: 1em; margin: 10px 0;}
 
-ul{font-size: 1em; font-weight: 400;}
+/*for contact list only*/
+.menu {margin: 0; padding: 0; text-align: center;}
+    
+.menu li{display: inline;}
 
-li{font-size: 1em; font-weight: 400;}
+/*education*/
+#degrees {margin: 5px 0 0 0;}
+
+/*skills*/
+#do {margin: 5px 0 0 0;}
+
+/*Mission Statement*/
+.top {width: 60%; min-width: 300px; margin: 0 auto; margin-bottom: 30px;}
